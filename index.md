@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Hi, I am William. I am an ETOX PhD student at the University of California, Riverside with a secondary interest in computer personalization, networking engineering, and cybersecurity. This blog documents the journey undertaken.
