@@ -2,9 +2,9 @@
 
 ---
 layout: post
-title: "Hello World!"
-date: 2025-12-25
-categories: test
+title: "Hello World"
+date: 2025-12-25 13:30:00 -0800
+categories: [testing]
 ---
 Hello World!
 
