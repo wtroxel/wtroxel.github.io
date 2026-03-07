@@ -6,4 +6,4 @@ categories:
   - testing
 ---
 
-##The purpose of this page is to explain how to set up Jekyll, Ruby, and GitHub ssh to enable publishing from MacBook Terminal in a clean and intuitive way.
+The purpose of this page is to explain how to set up Jekyll, Ruby, and GitHub ssh to enable publishing from MacBook Terminal in a clean and intuitive way.
