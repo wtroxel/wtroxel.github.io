@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Preparing Data for Machine Learning"
+date: 2026-03-17 16:30:00 -0800
+categories:
+   - machinelearning
+---
+
+Data is an essential element for machine learning projects. Data may be sourced internally, from a client, an open-source repository, or a third party.
+
+In a sample exercise, home costs will be considered. Other independent variables such as income, population, house occupancy, location, number of bedrooms, number of rooms, and house age. Supervised learning, a form of ML where initial inputs and final outputs are labeled, will be used. The data contains the target values that the model will predict, in this case, Median House Value. Several features, the independent variables mentioned earlier, will be used to predict this target. Linear regression is an ML algorithm based on supervised learning to find relationships between the predictive and forecasted variables, analagous to the linear slope equation, y = mx + b.
+
+In the housing data set, there are several feature variables including longitude, latitude, median age of the house, total room and bedrooms within a block, population of the neighborhood, households in a home unit for a block, median income for a block of houses in tens of thousands of dollars, median house value, and ocean proximity. The median house value is how much the house is worth in dollars and it is significant because it is the target variable, the y that we want to predict from some input term, x.
+
+People conceptualize large datasets more easily through visualization with charts and graphs. matplotlib and seaborn are Python packages for generating clear and intuitive plots. A few examples include:  
+  -Histograms: Show the distribution of numerical data for a target value. Not necessary for non-numeric data, like categorical or ordinal data. It is easy to visualize outliers depending on the bin size
+  -Heat maps: Show the correlation of one feature to every other feature. Highly correlated features may teach the model the same thing and duplicate features should be removed to save computational costs. Expect a line along the diagonal for perfect 1:1 correlations. Values closer to zero indicate no correlation. Values closer to +/- 1 indicate high correlation or high anti-correlation. The heat map should be symmetrical.
+
+Dimensionality reduction is the act of removing features from a model to improve run-time and effectiveness by isolating essential components. As an example, the total number of rooms and the size of a house may be highly correlated, so one of these features may be removed to optimize the training process. The next aspect is feature engineering, which manipulates data by selectively adding, deleting, or combining features to improve training and prediction capacity.
+
+A feature, in the ML context, are identifable properties or input variables used by models to make predictions. Feature engineering is the maniupulation of these inputs to improve model preditions, and requires careful understanding of the relationships between data and features. It is similar to interrogating protein design, where having a full understanding of the structural system is necessary to design new proteins for specific needs. Ways to handle missing data include deleting rows with missing values, using ML to predict missing values, replace missing values with the average value, or use other ML algorithms to handle the missing data. 
+
+In the case of housing data, there is a strong positive correlation between total rooms and households, total bedrooms and total rooms, and the population and the number of households. These features will be combined into separate single features to reduce correlative redundancy. Likewise, there is a strong negative correlation between longitude and latitude; so these will be combined as well. In a biomedical context, an analagous example may be a feature combining overconsumption of simple carbohydrates and saturated fats towards a common outcome, like heart disease, so these features would be combined. Displaying a new heat map after combining the features should show the removal of the highly correlated features, leaving only the poorly correlated features.
+
+In some cases, we only have categorical data. In this case, categorical data must be encoded or converted to a numeric form for the ML program to process. One hot encoding is one such encoding technique to convert categorical data to numerical data by using binary columns. In this housing context, this describes if a house is relatively near one or more natural landscapes like the ocean, an island, inland, or near the bay where 1 means it meets one of these conditions, while 0 means it does not meet the condition. Note that one-hot encoding can lead to high cardinality, which refers to large numbers of unique and distinct values introducing low repetition, which can slow queries and increase storage costs. This leads to a corresponding increase in data dimensionality.
+
+As features increase, it is harder for an ML model to learn and generalize. Data can overfit to noise, leading to memorization instead of true learning. This resembles when students excessively learn on practice resources, but do not generalize to understand class content in preparation for a new exam. It also makes the search landscape more complex and more difficult to find optimal solutions. This increses the training costs and can make it more expensive to use the ML model, defeating the purpose of using ML.
