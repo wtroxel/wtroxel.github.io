@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Implementing Machine Learning Solutions"
+title: "1.2 Implementing Machine Learning Solutions"
 date: 2026-03-07 16:30:00 -0800
 categories:
    - machinelearning

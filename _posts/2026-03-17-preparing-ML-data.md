@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Preparing Data for Machine Learning"
+title: "1.3 Preparing Data for Machine Learning"
 date: 2026-03-16 12:00:00 -0800
 categories:
    - machinelearning
@@ -13,8 +13,8 @@ In a sample exercise, home costs will be considered. Other independent variables
 In the housing data set, there are several feature variables including longitude, latitude, median age of the house, total room and bedrooms within a block, population of the neighborhood, households in a home unit for a block, median income for a block of houses in tens of thousands of dollars, median house value, and ocean proximity. The median house value is how much the house is worth in dollars and it is significant because it is the target variable, the y that we want to predict from some input term, x.
 
 People conceptualize large datasets more easily through visualization with charts and graphs. matplotlib and seaborn are Python packages for generating clear and intuitive plots. A few examples include:  
-  -Histograms: Show the distribution of numerical data for a target value. Not necessary for non-numeric data, like categorical or ordinal data. It is easy to visualize outliers depending on the bin size
-  -Heat maps: Show the correlation of one feature to every other feature. Highly correlated features may teach the model the same thing and duplicate features should be removed to save computational costs. Expect a line along the diagonal for perfect 1:1 correlations. Values closer to zero indicate no correlation. Values closer to +/- 1 indicate high correlation or high anti-correlation. The heat map should be symmetrical.
+  1. Histograms: Show the distribution of numerical data for a target value. Not necessary for non-numeric data, like categorical or ordinal data. It is easy to visualize outliers depending on the bin size 
+  2. Heat maps: Show the correlation of one feature to every other feature. Highly correlated features may teach the model the same thing and duplicate features should be removed to save computational costs. Expect a line along the diagonal for perfect 1:1 correlations. Values closer to zero indicate no correlation. Values closer to +/- 1 indicate high correlation or high anti-correlation. The heat map should be symmetrical  
 
 Dimensionality reduction is the act of removing features from a model to improve run-time and effectiveness by isolating essential components. As an example, the total number of rooms and the size of a house may be highly correlated, so one of these features may be removed to optimize the training process. The next aspect is feature engineering, which manipulates data by selectively adding, deleting, or combining features to improve training and prediction capacity.
 
