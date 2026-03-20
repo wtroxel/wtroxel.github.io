@@ -8,15 +8,15 @@ categories:
 
 During the machine learning (ML) process, the model will look over the data multiple times to identify the key trends. Each iterative search through the data is called an "epoch", and the trends uncovered in a mathematical model. The number of epochs used is a key "hyperparameter", or an external configuration setting, which can result in a better model.
 
-A typical data split is 80% for training and 20% for evaluating performance. While training on this 80%, a "loss function" measures how "good" the model is at predicting an expected value. It is how far an estimated value is from the actual value. Loss functions are only used to optimize training. It is NOT used to judge overall performance. The model is then evaluated with 20% of the reserved dataset that it has not seen before. Standard loss function evaluation metrics include mean squared error (MSE), accuracy, F1 score, area under the curve (AUC), R-squred, among others. This indicates if the hyperparameters require slight changes and to restart the training process to improve performance.
-
-  -Linear regression is used to solve regression problems to predict numeric values. Lihenar equations identify a relationship between dependent and independent variables by fitting it to a regression line.  
-
-  -Logistic regression is used for classification problems, not regressions. It predicts probabilities with binary boolean values, such as true or false. The output values will lie between 0 to 1, where 1 is closer to the desired value and 0 is further away.  
-
-  -Decision trees are used for classification and regression problems. It separates data based on features into a decision making branch. The flow producing the best prediction is uncovered. If the branch is not relevant, it is removed. Tree depth can be configured with hyperparameters. An example is alpha-beta pruning search algorithm employed by chess engines like Stockfish, which eliminates suboptimal branches in the game tree.  
-
-  -Random Forest is a set of decision trees, where there are multiple trees created from different row samples, and each tree makes individual predictions. All predictions are averaged together into a final result. 
+A typical data split is 80% for training and 20% for evaluating performance. While training on this 80%, a "loss function" measures how "good" the model is at predicting an expected value. It is how far an estimated value is from the actual value. Loss functions are only used to optimize training. It is NOT used to judge overall performance. The model is then evaluated with 20% of the reserved dataset that it has not seen before. Standard loss function evaluation metrics include mean squared error (MSE), accuracy, F1 score, area under the curve (AUC), R-squared (R^2), among others. This indicates if the hyperparameters require slight changes and to restart the training process to improve performance.
+  
+  --Linear regression is used to solve regression problems to predict numeric values. Linenar equations identify a relationship between dependent and independent variables by fitting it to a regression line.  
+  
+  --Logistic regression is used for classification problems, not regressions. It predicts probabilities with binary boolean values, such as true or false. The output values will lie between 0 to 1, where 1 is closer to the desired value and 0 is further away.  
+  
+  --Decision trees are used for classification and regression problems. It separates data based on features into a decision making branch. The flow producing the best prediction is uncovered. If the branch is not relevant, it is removed. Tree depth can be configured with hyperparameters. An example is alpha-beta pruning search algorithm employed by chess engines like Stockfish, which eliminates suboptimal branches in the game tree.  
+  
+  --Random Forest is a set of decision trees, where there are multiple trees created from different row samples, and each tree makes individual predictions. All predictions are averaged together into a final result. 
 
 The logistic regression learning algorithm is used to resolve classification problems and predict probability with binary values based on independent variables. A sample exercise reviews stop-and-search data from the United Kingdom, with the dataset consisting of different independent variables as features to predict if a stop leads to an arrest. Processing the data entails inputing missing values with K Nearest Neightbors (KNN), one-hot encoding categorical data, removing outliers, and combining highly correlated features.
 
