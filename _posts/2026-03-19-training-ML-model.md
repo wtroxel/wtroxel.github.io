@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "1.4 Preparing Data for Machine Learning"
+title: "1.4 Training a Machine Learning Model"
 date: 2026-03-19 12:00:00 -0800
 categories:
    - machinelearning
