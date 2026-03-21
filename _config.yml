@@ -9,7 +9,7 @@ github_username: "wtroxel"
 linkedin_username: "william-t-638b3a165"
 
 include:
-  - _assets
+  - assets
 
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
