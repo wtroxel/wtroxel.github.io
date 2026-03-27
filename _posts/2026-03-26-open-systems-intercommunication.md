@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "1.1 Understanding Machine Learning"
+title: "1.1 Open Systems Intercommunication"
 date: 2026-03-26 12:00:00 -0800
 categories:
    - networkengineer
