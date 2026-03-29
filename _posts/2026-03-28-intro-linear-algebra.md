@@ -17,8 +17,7 @@ Linear algebra is necessary to understand and modify machine learning algorithms
 5. Regularization - Used to mitigate the effects of overfitting, where models fit too close for available data and cannot perform well with new data. Encourages a model to reduce the size of coefficients while fitting on the data. An analogy is the use of the taylor expansion to approximate sin(x), where using more terms increasing the precision at values close a desired point, but it gets more divergent further from that point (Figure 1)
 
 ![Sin(x) Taylor Expansion](/assets/machinelearning/SinxTaylorExpansion.png)
-*Figure 1: Visualization of OSI layers and the direction of packet encapsulation for the sender node and decapsulation for the receiver node shown in red arrows. Physical connection for data transfer between sender and receiver nodes shown in green.*
-Figure 1. y = sin(x) shown in red. Taylor expansions with increasing terms shown in blue, green, purple, and black. As the number of terms increases, the precision close to x = 0 is better. As x increases or decreases, the divergence gets increasingly fast.
+*Figure 1. y = sin(x) shown in red. Taylor expansions with increasing terms shown in blue, green, purple, and black. As the number of terms increases, the precision close to x = 0 is better. As x increases or decreases, the divergence gets increasingly fast.*
 
 
 6. Principal Component Analysis (PCA) - Matrix factorization method to create lower-dimensional projections of high-dimensional data for visualization and training. 
