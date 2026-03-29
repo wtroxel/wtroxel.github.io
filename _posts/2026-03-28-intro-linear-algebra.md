@@ -3,7 +3,7 @@ layout: post
 title: "2.1 Introduction to Linear Algebra"
 date: 2026-03-28 12:00:00 -0800
 categories:
-   - networkengineer
+   - machinelearning
 ---
 
 Linear algebra is a branch of mathematics focusing on linear equations, vectors, matrices, and linear transformations. It provides a mechanism by which to describe and perform operations on coordinates and planes in higher dimensions. These are the building blocks for machine learning (ML), as it relies on vectors, matrices, linear transformations, determinants, and vector spaces. Large data sets are essentially matrices and performing operations like splitting the data into training and testing data requires linear algebra.
