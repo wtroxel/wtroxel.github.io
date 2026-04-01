@@ -33,4 +33,3 @@ Note that there is a difference between a Python list and an NumPy array. Multip
 A cartesian coordinate system identifies the position of objects in n-dimensional space. For a 2D coordinate system, an xy-plane is used, while a 3D system uses an xyz-plane. For a coordinate plane, 2D is more typical. The x-axis is specified along left-and-right while the y-axis is specified along up-and-down. A point describes a pair of x and y coordinates to specify its position in space. The order matters, as (2,3) and (3,2) have the same numbers, but in a different order giving a completely different position in space.
 
 Building on this, vectors are represented with the tail and head of an arrow in space. Vector addition is done by connecting the tail of one vector with the head of another for however many vectors are in the system. By drawing a line from the tail of the first vector to the head of the last vector, one obtains the final net vector for vector addition.
-
