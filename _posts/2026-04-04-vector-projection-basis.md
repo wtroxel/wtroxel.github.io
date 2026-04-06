@@ -6,10 +6,10 @@ categories:
    - machinelearning
 ---
 The dot product of vectors is widely used in machine learning algorithms. The dot product of two vectors is determined by multiplying the corresponding elements and taking the sum of them, showing the relationship between the two vectors. The vectors must be the same dimensionality.
-
-If vector a is given by [3,1,4,1,5], and
-If vector b is given by [2,7,1,8,2], then
-
+  
+If vector a is given by [3,1,4,1,5], and  
+If vector b is given by [2,7,1,8,2], then  
+  
 The dot product is determined by taking the sum of the multiplied form of the corresponding vectors such that it follows the general form: a ⋅b = sum(ai * bi)
 
 a⋅b = (3x2) + (1x7) + (4x1) + (1x8) + (5x2) = 35
