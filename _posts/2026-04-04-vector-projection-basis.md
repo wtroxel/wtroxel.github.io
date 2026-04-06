@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2.3 Vector Projections and Basis"
-date: 2026-04-24 12:00:00 -0800
+date: 2026-04-04 12:00:00 -0800
 categories:
    - machinelearning
 ---
