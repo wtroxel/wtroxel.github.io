@@ -19,9 +19,9 @@ The dot product is distributive over addition, meaning “a⋅(b + c)” = “a�
 
 If vector c is given by [1,4,1,4,2], then
 a⋅(b + c) = a⋅b + a⋅c
-  Because a⋅b = (3x2) + (1x7) + (4x1) + (1x8) + (5x2) = 35
-  Because a⋅c = (3x1) + (1x4) + (4x1) + (1x4) + (5x2) = 25
-  Therefore, a⋅(b + c) = a⋅b + a⋅c = 35 + 25 = 60
+  Because a⋅b = (3x2) + (1x7) + (4x1) + (1x8) + (5x2) = 35  
+  Because a⋅c = (3x1) + (1x4) + (4x1) + (1x4) + (5x2) = 25  
+  Therefore, a⋅(b + c) = a⋅b + a⋅c = 35 + 25 = 60  
 
 Scalar and vector projections are useful to make mathematical operations and machine learning applications easier. The magnitude, also known as a norm or geometric length, is the distance from the tail to the head of a vector. Vector magnitude is indicated with two vertical bars around both sides of a vector, such as \|\|a\|\|.
 
