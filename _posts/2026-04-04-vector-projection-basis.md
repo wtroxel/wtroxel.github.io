@@ -19,13 +19,13 @@ The dot product is distributive over addition, meaning “a⋅(b + c)” = “a�
 
 If vector c is given by [1,4,1,4,2], then
 a⋅(b + c) = a⋅b + a⋅c
-	Because a⋅b = (3x2) + (1x7) + (4x1) + (1x8) + (5x2) = 35
-	Because a⋅c = (3x1) + (1x4) + (4x1) + (1x4) + (5x2) = 25
-	Therefore, a⋅(b + c) = a⋅b + a⋅c = 35 + 25 = 60
+  Because a⋅b = (3x2) + (1x7) + (4x1) + (1x8) + (5x2) = 35
+  Because a⋅c = (3x1) + (1x4) + (4x1) + (1x4) + (5x2) = 25
+  Therefore, a⋅(b + c) = a⋅b + a⋅c = 35 + 25 = 60
 
-Scalar and vector projections are useful to make mathematical operations and machine learning applications easier. The magnitude, also known as a norm or geometric length, is the distance from the tail to the head of a vector. Vector magnitude is indicated with two vertical bars around both sides of a vector, such as ||a||.
+Scalar and vector projections are useful to make mathematical operations and machine learning applications easier. The magnitude, also known as a norm or geometric length, is the distance from the tail to the head of a vector. Vector magnitude is indicated with two vertical bars around both sides of a vector, such as \|\|a\|\|.
 
-Vector projection is where we place one vector, vector a, onto another vector, vector b, such that there is an orthogonal projection of a onto b. Orthogonal means perpendicularity, or right angles, relative between two intersecting lines. Calculating the orthogonality of vectors a and b requires a separate formula, where ((a⋅b) / ||b||^2) * b. This characterizes how much of vector b acts in the same direction relative to vector a.
+Vector projection is where we place one vector, vector a, onto another vector, vector b, such that there is an orthogonal projection of a onto b. Orthogonal means perpendicularity, or right angles, relative between two intersecting lines. Calculating the orthogonality of vectors a and b requires a separate formula, where ((a⋅b) / \|\|b\|\|^2) * b. This characterizes how much of vector b acts in the same direction relative to vector a.
 
 ![Vector Projection](/assets/machinelearning/vectorprojection.png)
 *Figure 1. Comparison between pushing a vehicle from the back, versus from the side, where the force vector is shown in red and the directional vector is shown in blue. The same force applied to a vector off to the side, represented by the red arrow, results in comparatively less force applied along the directional vector shown with the shorter purple arrow.* 
@@ -41,7 +41,7 @@ The magnitude of the vectors are given by:
   ||b|| = sqrt((2^2)+(7^2)+(1^2)+(8^2)+(2^2)) = 11.045
 
 Problem 1. Calculate the projection of vector a onto vector b
-  p1 = ((a⋅b) / (||b||*||b||)) * b is given by:
+  p1 = ((a⋅b) / (\|\|b\|\|*\|\|b\|\|)) * b is given by:
 
   (35 / (11.045)^2) * (2) = 0.5738
   (35 / (11.045)^2) * (7) = 2.0083
@@ -52,7 +52,7 @@ Problem 1. Calculate the projection of vector a onto vector b
 Therefore, p1 =〈0.5738, 2.0083, 0.2869, 2.2952, 0.5738〉
  	
 Problem 2. Calculate the projection of vector b onto vector a
-  p2 = ((b⋅a / (||a||*||a||)) * a is given by:
+  p2 = ((b⋅a / (\|\|a\|\|*\|\|a\|\|)) * a is given by:
 
   (35 / (7.211)^2) * (3) = 2.0193
   (35 / (7.211)^2) * (1) = 0.6731
