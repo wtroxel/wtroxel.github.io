@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lab 1 | Packet Tracer - Navigate the IOS"
-date: 2026-04-12 12:00:00 -0800
+date: 2026-04-11 12:00:00 -0800
 categories:
    - networkengineer
 ---
