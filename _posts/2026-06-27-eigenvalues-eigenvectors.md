@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2.7 Eigenvalues and Eigenvectors"
+title: "2.6 Eigenvalues and Eigenvectors"
 date: 2026-06-27 12:00:00 -0800
 categories:
    - machinelearning
